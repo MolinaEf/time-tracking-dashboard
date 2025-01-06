@@ -234,6 +234,15 @@ h2{
     padding-bottom: 0.5rem
 }
 
+.main-section:hover{
+    background-color: var(--desaturated-blue) !important;
+    cursor: pointer;
+}
+
+.toggle-btn:hover{
+    color: white !important;
+}
+
 @media (min-width: 48rem){
     .wrapper{
         grid-template-rows: 16rem 16rem;
