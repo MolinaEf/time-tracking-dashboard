@@ -52,3 +52,7 @@ function updateData(){
 })
 })
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+        dailyBtn.click();
+    });
